@@ -6,7 +6,7 @@ import os
 
 # ===== BOT DETAILS =====
 BOT_TOKEN = "8378237274:AAESiyF2j6Ty6RqbeQFaJ8xU8b21YMYAjTQ"
-CHAT_ID = 284398375 
+CHAT_ID =  5687377167
 
 # ===== SWING SETTINGS =====
 STOCKS = ["RELIANCE.NS", "TCS.NS", "INFY.NS"]
@@ -63,3 +63,4 @@ for stock in STOCKS:
 # Save updated signals
 with open(DATA_FILE, "w") as f:
     json.dump(last_signals, f)
+
